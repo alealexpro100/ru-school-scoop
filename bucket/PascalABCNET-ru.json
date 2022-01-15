@@ -1,0 +1,26 @@
+{
+    "version": "3.8.1",
+    "description": "IDE PascalABC.NET + Exercise book PT4. Some suggestions doesn't work (Ru).",
+    "homepage": "http://pascalabc.net/",
+    "license": "GPL-3.0-only",
+    "url": "http://pascalabc.net/downloads/PascalABCNETSetup.exe#/dl.7z",
+    "hash": "0ad10ef68fa5c77df9801b99b47f3dbc3288f16d896156f98f8022ed0d3ab6b2",
+    "bin": "PascalABCNET.exe",
+    "shortcuts": [
+        [
+            "PascalABCNET.exe",
+            "PascalABC.NET"
+        ]
+    ],
+    "post_install": [
+        "Move-Item -Path \"$dir\\`$_1_\\Samples\" -Destination \"$dir\\`Samples\"",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\", \"$dir\\`$_1_\", \"$dir\\`$WINDIR\" -Recurse"
+    ],
+    "checkver": {
+        "url": "http://pascalabc.net/ssyilki-dlya-skachivaniya",
+        "regex": "\\(версия ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://pascalabc.net/downloads/PascalABCNETSetup.exe#/dl.7z"
+    }
+}
