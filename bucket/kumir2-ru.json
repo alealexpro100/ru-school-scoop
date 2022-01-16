@@ -1,6 +1,6 @@
 {
     "version": "2.1.0",
-    "description": "КуМир (Комплект Учебных МИРов) - система программирования, предназначенная для поддержки начальных курсов информатики и программирования в средней и высшей школе.",
+    "description": "KuMir - a programming system designed to support computer science courses.",
     "homepage": "https://www.niisi.ru/kumir/",
     "license": "GPL-2.0-only",
     "url": "https://www.niisi.ru/kumir/kumir2-2.1.0-rc11-install.exe#/dl.7z",

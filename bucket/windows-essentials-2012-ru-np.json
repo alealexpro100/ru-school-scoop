@@ -1,9 +1,9 @@
 {
     "version": "16.4.3528.0331",
-    "description": "Windows essentials 2012. Устанавливает только Movie Maker и Photo Gallery. Русская версия.",
+    "description": "Windows essentials 2012. Installs only Movie Maker and Photo Gallery. Russian version.",
     "homepage": "https://support.microsoft.com/en-us/windows/windows-essentials-2707b879-5004-4349-c4a4-e5900945f2a9",
     "license": {
-        "identifier": "Freeware",
+        "identifier": "Proprietary",
         "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx"
     },
     "notes": [
