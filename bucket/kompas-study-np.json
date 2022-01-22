@@ -12,6 +12,9 @@
             }
         }
     },
+    "post_install": [
+        "Remove-Item -Recurse \"$dir\\*\""
+    ],
     "uninstaller": {
         "script": "Start-Process -Wait $env:SystemRoot\\System32\\msiexec.exe \"/x {CA7F44B5-173E-4C7D-A32A-716B3F0C0425} /qn /norestart\" -Verb RunAs"
     }
