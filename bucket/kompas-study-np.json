@@ -15,7 +15,7 @@
             }
         },
         "32bit": {
-            "url": "https://s10887.cdn.ngenix.net/download/26EB9B75D172520E54FEFD1BADF2E19B01758EC8112BC5AA5AA582EAC0566DCC94BE80CB62F6ABD577CD5C15CB4B9AA51868C52F9CB4D83EF7F92BAD7B91D6C3/KOMPAS/v20_Edu/x86/KOMPAS-3D_v20_Study_x86.zip#/dl.7z",
+            "url": "https://s10887.cdn.ngenix.net/download/26EB9B75D172520E54FEFD1BADF2E19B3845DEF4F3956E2E8528DC08C2D2233394BE80CB62F6ABD577CD5C15CB4B9AA51868C52F9CB4D83EF7F92BAD7B91D6C3/KOMPAS/v20_Edu/x86/KOMPAS-3D_v20_Study_x86.zip#/dl.7z",
             "hash": "25ec404b96d1072ed8ac361a07008da4d64b29629f9527f9c0e4df6ec26598a5",
             "installer": {
                 "script": "Start-Process -Wait $env:SystemRoot\\System32\\msiexec.exe \"/i `\"$dir\\KOMPAS-3D_v20_Study_x86.msi`\" /qn /norestart\" -Verb RunAs"
