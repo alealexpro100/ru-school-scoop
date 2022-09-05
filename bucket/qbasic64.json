@@ -14,7 +14,9 @@
         }
     },
     "bin": "qb64.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/QB64Team/qb64"
+    },
     "autoupdate": {
         "architecture": {
             "32bit": {
