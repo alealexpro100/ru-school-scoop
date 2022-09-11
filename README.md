@@ -6,6 +6,8 @@
 How do I install these manifests?
 ---------------------------------
 
+To add this bucket, run `scoop bucket add ru-school https://github.com/alealexpro100/ru-school-scoop`. To install, do `scoop install <manifest>`.
+
 General description
 -------------------
 
