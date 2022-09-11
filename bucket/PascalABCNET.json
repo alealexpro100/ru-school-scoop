@@ -22,6 +22,9 @@
         "replace": "$1_$2"
     },
     "autoupdate": {
-        "url": "http://pascalabc.net/downloads/PascalABCNETSetup.exe#/dl.7z"
+        "url": "http://pascalabc.net/downloads/PascalABCNETSetup.exe#/dl.7z",
+        "hash": {
+            "mode": "download"
+        }
     }
 }
