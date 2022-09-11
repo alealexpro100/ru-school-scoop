@@ -3,7 +3,7 @@
     "description": "School Pak Plus: Borland Turbo Pascal 7.0 with a russian translation + additional modules and a tutorial website.",
     "homepage": "http://pascal.net.ru/SchoolPak",
     "license": "Proprietary",
-    "url": "https://mirror.alexpro100.ru/scripts_files/windows_soft/school/tp7.scp.1.3.plus.07.05.2011.exe#/dl.7z",
+    "url": "https://archive.org/download/school-pak/tp7.scp.1.3.plus.07.05.2011.exe#/dl.7z",
     "hash": "21393454424aa02d7a859a1d85b22b7a65a11c3e91b5049cfce3cbd09c262fce",
     "innosetup": true,
     "bin": [
