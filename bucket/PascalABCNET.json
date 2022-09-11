@@ -4,7 +4,7 @@
     "homepage": "http://pascalabc.net/",
     "license": "GPL-3.0-only",
     "url": "http://pascalabc.net/downloads/PascalABCNETSetup.exe#/dl.7z",
-    "hash": "68b364d49b40f3aa1af8a2f2d1a136741c3cab025d8f24f3cc010c66674da4dd",
+    "hash": "2b3ee1bf2bc2b3f0587fb267fb4504f3c0ba4c70596ffb7300741407ec5eb5dc",
     "bin": "PascalABCNET.exe",
     "shortcuts": [
         [
