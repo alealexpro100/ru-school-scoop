@@ -1,0 +1,55 @@
+{
+	"version": "105.0.5195.102",
+    "description": "Chromium woth GOST algorithm support.",
+    "homepage": "https://github.com/deemru/Chromium-Gost",
+    "license": "MIT",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/deemru/Chromium-Gost/releases/download/105.0.5195.102/chromium-gost-105.0.5195.102-windows-386.zip#dl.7z",
+            "hash": "1ae732178a14acc5f71a587318498be6a4a2e74189386426b026809801b71aae"
+        },
+        "64bit": {
+            "url": "https://github.com/deemru/Chromium-Gost/releases/download/105.0.5195.102/chromium-gost-105.0.5195.102-windows-amd64.zip#dl.7z",
+            "hash": "261fe1946f8743f0890ef976a946452538c00a2db33cab8bd232370f3f193e48"
+        }
+    },
+    "bin": [
+        [
+            "Chrome-bin\\chrome.exe",
+            "chromium-gost",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Chrome-bin\\chrome.exe",
+            "Chromium-GOST",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "installer": {
+        "script": [
+            "Move-Item -Path \"$dir\\chromium-gost-$version\" -Destination \"$dir\\Chrome-bin\""
+        ]
+    },
+    "post_install": [
+        "if (!(Test-Path \"$dir\\User Data\\*\") -and (Test-Path \"$env:LocalAppData\\Chromium\\User Data\")) {",
+        "    info '[Portable Mode]: Copying user data...'",
+        "    Copy-Item \"$env:LocalAppData\\Chromium\\User Data\\*\" \"$dir\\User Data\" -Recurse",
+        "}"
+    ],
+    "persist": "User Data",
+    "checkver": {
+		"github": "https://github.com/deemru/Chromium-Gost"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/deemru/Chromium-Gost/releases/download/$version/chromium-gost-$version-windows-386.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/deemru/Chromium-Gost/releases/download/$version/chromium-gost-$version-windows-amd64.zip"
+            }
+        }
+    }
+}
