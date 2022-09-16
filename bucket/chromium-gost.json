@@ -1,5 +1,5 @@
 {
-	"version": "105.0.5195.102",
+    "version": "105.0.5195.102",
     "description": "Chromium woth GOST algorithm support.",
     "homepage": "https://github.com/deemru/Chromium-Gost",
     "license": "MIT",
@@ -40,7 +40,7 @@
     ],
     "persist": "User Data",
     "checkver": {
-		"github": "https://github.com/deemru/Chromium-Gost"
+        "github": "https://github.com/deemru/Chromium-Gost"
     },
     "autoupdate": {
         "architecture": {
