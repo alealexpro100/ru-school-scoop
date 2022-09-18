@@ -15,27 +15,21 @@
     },
     "bin": [
         [
-            "Chrome-bin\\chrome.exe",
+            "app\\chrome.exe",
             "chromium-gost",
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
         [
-            "Chrome-bin\\chrome.exe",
+            "app\\chrome.exe",
             "Chromium-GOST",
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "installer": {
-        "script": "Move-Item -Path \"$dir\\chromium-gost-$version\" -Destination \"$dir\\Chrome-bin\""
+        "script": "Move-Item -Path \"$dir\\chromium-gost-$version\" -Destination \"$dir\\app\""
     },
-    "post_install": [
-        "if (!(Test-Path \"$dir\\User Data\\*\") -and (Test-Path \"$env:LocalAppData\\Chromium\\User Data\")) {",
-        "    info '[Portable Mode]: Copying user data...'",
-        "    Copy-Item \"$env:LocalAppData\\Chromium\\User Data\\*\" \"$dir\\User Data\" -Recurse",
-        "}"
-    ],
     "persist": "User Data",
     "checkver": {
         "github": "https://github.com/deemru/Chromium-Gost"
