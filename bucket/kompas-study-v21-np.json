@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://archive.org/download/kompas-3-d-study-v20-and-v21/KOMPAS-3D_v21_Study_x64_1174.zip#/dl.7z",
-            "hash": "ddb3f0d06fb83071d0ff3bdff2b4359a4cb85f5253276cafec50e92af0b81bb5",
+            "hash": "221351ba82d072081a3c49f81a2a74bc491e377c6059d500f7b222d448d30495",
             "installer": {
                 "script": "Start-Process -Wait $env:SystemRoot\\System32\\msiexec.exe \"/i `\"$dir\\KOMPAS-3D_v21_Study_x64.msi`\" /qn /norestart\" -Verb RunAs"
             },
@@ -15,7 +15,5 @@
             }
         }
     },
-    "post_install": [
-        "Remove-Item -Recurse \"$dir\\*\""
-    ]
+    "post_install": "Remove-Item -Recurse \"$dir\\*\""
 }
