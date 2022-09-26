@@ -1,12 +1,10 @@
 {
-    "##": "Awaiting for URL from support-team to add autoupdate.",
     "version": "1.1.12",
     "description": "Education platform by VK-group.",
     "homepage": "https://sferum.ru",
     "license": "MIT",
     "url": "https://st.mycdn.me/static/sferum/1-1-12/sferum.exe#/dl.7z",
     "hash": "006a58253dcc75ec3127ceeaae0fb93c9e007c24bf47053c49ffe5f3df0a9f3b",
-    "depends": "7zip",
     "bin": [
         [
             "app\\Sferum.exe",
@@ -46,9 +44,5 @@
         "    info '[Portable Mode]: Copying user data...'",
         "    Copy-Item \"$env:AppData\\Sferum\\*\" \"$dir\\User Data\" -Recurse",
         "}"
-    ],
-    "persist": "User Data",
-    "autoupdate": {
-        "url": "https://st.mycdn.me/static/sferum/$dashVersion/sferum.exe"
-    }
+    ]
 }
