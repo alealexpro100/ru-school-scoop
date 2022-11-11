@@ -44,5 +44,12 @@
         "    info '[Portable Mode]: Copying user data...'",
         "    Copy-Item \"$env:AppData\\Sferum\\*\" \"$dir\\User Data\" -Recurse",
         "}"
-    ]
+    ],
+    "checkver": {
+        "url": "https://st.mycdn.me/static/sferum/latest/",
+        "regex": "sferum-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://st.mycdn.me/static/sferum/$version/sferum.exe#/dl.7z"
+    }
 }
