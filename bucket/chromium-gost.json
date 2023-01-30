@@ -1,16 +1,16 @@
 {
-    "version": "107.0.5304.110",
+    "version": "109.0.5414.119",
     "description": "Chromium woth GOST algorithm support.",
     "homepage": "https://github.com/deemru/Chromium-Gost",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/deemru/Chromium-Gost/releases/download/107.0.5304.110/chromium-gost-107.0.5304.110-windows-386.zip",
-            "hash": "57ce73208d0a6544f3009a1b7341875a5e2a61ff11cf09c6551442fbe9e0fc9d"
+            "url": "https://github.com/deemru/Chromium-Gost/releases/download/109.0.5414.119/chromium-gost-109.0.5414.119-windows-386.zip",
+            "hash": "4cf0efbc9c2a36e7eadfca1be3a9a6ffa6b749d6761e088233db42128f8f7916"
         },
         "64bit": {
-            "url": "https://github.com/deemru/Chromium-Gost/releases/download/107.0.5304.110/chromium-gost-107.0.5304.110-windows-amd64.zip",
-            "hash": "2200512ace04105cb72aba2a93ffda6758bc844894bd794c9da705300b0cc074"
+            "url": "https://github.com/deemru/Chromium-Gost/releases/download/109.0.5414.119/chromium-gost-109.0.5414.119-windows-amd64.zip",
+            "hash": "1a04a11d1a0c0809d1dfdb3323a223446a48f539feca9f3eea03126ba7cd1670"
         }
     },
     "bin": [
