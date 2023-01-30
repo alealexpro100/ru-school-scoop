@@ -1,10 +1,10 @@
 {
-    "version": "3.8.3_3173",
+    "version": "3.8.3_3211",
     "description": "IDE PascalABC.NET + Exercise book PT4. Some suggestions may not work.",
     "homepage": "http://pascalabc.net/",
     "license": "GPL-3.0-only",
     "url": "http://pascalabc.net/downloads/PascalABCNETSetup.exe#/dl.7z",
-    "hash": "55cc79289a777a05aa5fe07c0e1aa54d2cdf2ca5b2b6c1379fc4b056f4aba54c",
+    "hash": "64d89643fd21598cdbd92474fb006dc08978826218daae563e2f6ad5f116435e",
     "bin": "PascalABCNET.exe",
     "shortcuts": [
         [
