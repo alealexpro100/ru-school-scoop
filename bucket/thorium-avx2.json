@@ -1,0 +1,30 @@
+{
+    "version": "109.0.5362.0",
+    "description": "Chromium fork for Windows named after radioactive element No. 90 built for AVX2 CPUs",
+    "homepage": "https://thorium.rocks/",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/Alex313031/Thorium-AVX2/releases/download/M109.0.5362.0/Thorium_AVX2_109.0.5362.0.zip",
+    "hash": "9278df6edff6fb79d9f288c6355aecacd322108ceda3d5cfdc9bc25e3b1f813e",
+    "bin": [
+        [
+            "THORIUM.BAT",
+            "thorium-avx2"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "THORIUM.BAT",
+            "Thorium-avx2",
+            "",
+            "BIN\\thorium.exe"
+        ]
+    ],
+    "persist": "USER_DATA",
+    "checkver": {
+        "github": "https://github.com/Alex313031/Thorium-AVX2",
+        "regex": "M([\\d]+\\.[\\d]+\\.[\\d]+\\.[\\d]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Alex313031/Thorium-AVX2/releases/download/M$version/Thorium_AVX2_$version.zip"
+    }
+}
